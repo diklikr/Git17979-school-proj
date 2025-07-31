@@ -1,7 +1,275 @@
-﻿  Git17979.cpp
+﻿  Command.cpp
+  Git17979.cpp
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(12,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Git17979.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(12,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Git17979.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(12,37): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Git17979.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(16,21): error C2065: 'SaltarCommand': undeclared identifier
+  (compiling source file 'Git17979.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(16,10): error C2923: 'std::unique_ptr': 'SaltarCommand' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Git17979.cpp')
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(16,21):
+      see declaration of 'SaltarCommand'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(16,10): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file 'Git17979.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(17,21): error C2065: 'DispararCommand': undeclared identifier
+  (compiling source file 'Git17979.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(17,10): error C2923: 'std::unique_ptr': 'DispararCommand' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Git17979.cpp')
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(17,21):
+      see declaration of 'DispararCommand'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(17,10): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file 'Git17979.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(18,21): error C2065: 'AgacharseCommand': undeclared identifier
+  (compiling source file 'Git17979.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(18,10): error C2923: 'std::unique_ptr': 'AgacharseCommand' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Git17979.cpp')
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(18,21):
+      see declaration of 'AgacharseCommand'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(18,10): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file 'Git17979.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(20,20): error C2065: 'Command': undeclared identifier
+  (compiling source file 'Git17979.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(20,28): error C2059: syntax error: '>'
+  (compiling source file 'Git17979.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\Git17979.cpp(60,45): error C2039: 'handleInput': is not a member of 'InputHandler'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(6,7):
+      see declaration of 'InputHandler'
+  
   InputHandler.cpp
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(12,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'InputHandler.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(12,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'InputHandler.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(12,37): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'InputHandler.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(16,21): error C2065: 'SaltarCommand': undeclared identifier
+  (compiling source file 'InputHandler.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(16,10): error C2923: 'std::unique_ptr': 'SaltarCommand' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'InputHandler.cpp')
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(16,21):
+      see declaration of 'SaltarCommand'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(16,10): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file 'InputHandler.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(17,21): error C2065: 'DispararCommand': undeclared identifier
+  (compiling source file 'InputHandler.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(17,10): error C2923: 'std::unique_ptr': 'DispararCommand' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'InputHandler.cpp')
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(17,21):
+      see declaration of 'DispararCommand'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(17,10): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file 'InputHandler.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(18,21): error C2065: 'AgacharseCommand': undeclared identifier
+  (compiling source file 'InputHandler.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(18,10): error C2923: 'std::unique_ptr': 'AgacharseCommand' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'InputHandler.cpp')
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(18,21):
+      see declaration of 'AgacharseCommand'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(18,10): error C2976: 'std::unique_ptr': too few template arguments
+  (compiling source file 'InputHandler.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(20,20): error C2065: 'Command': undeclared identifier
+  (compiling source file 'InputHandler.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(20,28): error C2059: syntax error: '>'
+  (compiling source file 'InputHandler.cpp')
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(4,1): error C2512: 'std::unique_ptr': no appropriate default constructor available
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      see declaration of 'std::unique_ptr'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,5): error C2678: binary '=': no operator found which takes a left-hand operand of type 'std::unique_ptr' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3449,17):
+      could be 'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(const std::unique_ptr<_Ty,_Dx> &)'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(const std::unique_ptr<_Ty,_Dx> &)': cannot convert 'this' pointer from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx> &'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,5):
+              Reason: cannot convert from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx>'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,5):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3344,30):
+      or       'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::nullptr_t) noexcept'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::nullptr_t) noexcept': cannot convert 'this' pointer from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx> &'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,5):
+              Reason: cannot convert from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx>'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,5):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3395,30):
+      or       'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ty,_Dx> &&) noexcept'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ty,_Dx> &&) noexcept': could not deduce template argument for '__formal'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3388,30):
+      or       'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept': could not deduce template argument for '__formal'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,5):
+      while trying to match the argument list '(std::unique_ptr, std::unique_ptr<SaltarCommand,std::default_delete<SaltarCommand>>)'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(5,20): error C2582: 'operator =' function is unavailable in 'std::unique_ptr'
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,5): error C2678: binary '=': no operator found which takes a left-hand operand of type 'std::unique_ptr' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3449,17):
+      could be 'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(const std::unique_ptr<_Ty,_Dx> &)'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(const std::unique_ptr<_Ty,_Dx> &)': cannot convert 'this' pointer from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx> &'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,5):
+              Reason: cannot convert from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx>'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,5):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3344,30):
+      or       'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::nullptr_t) noexcept'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::nullptr_t) noexcept': cannot convert 'this' pointer from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx> &'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,5):
+              Reason: cannot convert from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx>'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,5):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3395,30):
+      or       'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ty,_Dx> &&) noexcept'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ty,_Dx> &&) noexcept': could not deduce template argument for '__formal'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3388,30):
+      or       'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept': could not deduce template argument for '__formal'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,5):
+      while trying to match the argument list '(std::unique_ptr, std::unique_ptr<DispararCommand,std::default_delete<DispararCommand>>)'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(6,22): error C2582: 'operator =' function is unavailable in 'std::unique_ptr'
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,5): error C2678: binary '=': no operator found which takes a left-hand operand of type 'std::unique_ptr' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3449,17):
+      could be 'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(const std::unique_ptr<_Ty,_Dx> &)'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(const std::unique_ptr<_Ty,_Dx> &)': cannot convert 'this' pointer from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx> &'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,5):
+              Reason: cannot convert from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx>'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,5):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3344,30):
+      or       'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::nullptr_t) noexcept'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::nullptr_t) noexcept': cannot convert 'this' pointer from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx> &'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,5):
+              Reason: cannot convert from 'std::unique_ptr' to 'std::unique_ptr<_Ty,_Dx>'
+              C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,5):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3395,30):
+      or       'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ty,_Dx> &&) noexcept'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ty,_Dx> &&) noexcept': could not deduce template argument for '__formal'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3388,30):
+      or       'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,5):
+          'std::unique_ptr<_Ty,_Dx> &std::unique_ptr<_Ty,_Dx>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept': could not deduce template argument for '__formal'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,5):
+      while trying to match the argument list '(std::unique_ptr, std::unique_ptr<AgacharseCommand,std::default_delete<AgacharseCommand>>)'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(7,23): error C2582: 'operator =' function is unavailable in 'std::unique_ptr'
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(10,37): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(10,22):
+      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(10,22):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3429,37):
+      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(10,37):
+      while trying to match the argument list '()'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(11,39): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(11,22):
+      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(11,22):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3429,37):
+      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(11,39):
+      while trying to match the argument list '()'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(12,40): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(12,22):
+      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(12,22):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3429,37):
+      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(12,40):
+      while trying to match the argument list '()'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(16,24): error C2039: 'handleInput': is not a member of 'InputHandler'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.h(6,7):
+      see declaration of 'InputHandler'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(19,19): error C2065: 'botonMap_': undeclared identifier
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(20,13): error C3536: 'it': cannot be used before it is initialized
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(20,19): error C2065: 'botonMap_': undeclared identifier
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(29,47): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(29,32):
+      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(29,32):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3429,37):
+      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(29,47):
+      while trying to match the argument list '()'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(32,49): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(32,32):
+      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(32,32):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3429,37):
+      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(32,49):
+      while trying to match the argument list '()'
+  
+C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(35,50): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(35,32):
+      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(35,32):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3429,37):
+      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
+      C:\Users\inaki\OneDrive\Desktop\Git17979-school-proj\Git17979\InputHandler.cpp(35,50):
+      while trying to match the argument list '()'
+  
   Personaje.cpp
-  Generando código...
-  Git17979.vcxproj -> C:\Users\Estudiante\Documents\Git17979\x64\Debug\Git17979.exe
-  "pwsh.exe" no se reconoce como un comando interno o externo,
-  programa o archivo por lotes ejecutable.
+  Generating Code...

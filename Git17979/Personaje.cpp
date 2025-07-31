@@ -40,6 +40,10 @@ float Personaje::GetJumpHeight()
 	return _jumpheight;
 }
 
+void Personaje::Agacharse() {
+	std::cout << "El personaje SE AGACHA." << std::endl;
+}
+
 void Personaje::SetJumpHeight(float jumpHeight)
 {
 	_jumpheight = jumpHeight;

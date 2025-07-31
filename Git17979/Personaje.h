@@ -8,7 +8,7 @@ public:
 	~Personaje();
 	void Saltar();
 	void Disparar();
-
+	void Agacharse();
 
 	float GetJumpHeight();
 	void SetJumpHeight(float jumpHeight);
