@@ -10,7 +10,8 @@ Personaje::Personaje(float health, float maxHealth, float speed, int damage, flo
 	_jumpheight = jumpHeight;
 }
 
-Personaje::Personaje()
+Personaje::Personaje() 
+	: currentState_(State::IDLE), stateCounter_(0)
 {
 	std::cout << "llamando constructor default" << std::endl;
 	_health = 100;
@@ -24,15 +25,54 @@ Personaje::~Personaje()
 {
 	std::cout << "llamando destructor" << std::endl;
 }
+void Personaje::handleInput(char input)
+{
+    switch (currentState_)
+    {
+    case State::IDLE:
+		if (input == 'w') {
+			Saltar();
+		}
+		else if (input == 'f') {
+			Disparar();
+		}
 
+    case State::JUMPING:
+		std::cout << "Personaje está en el aire y no puede realizar acciones." << std::endl;
+        break;
+
+    case State::ATTACKING:
+		std::cout << "Personaje está atacando y no puede realizar acciones." << std::endl;
+        break;
+    }
+}
+
+void Personaje::update()
+{
+    if (currentState_ == State::JUMPING || currentState_ == State::ATTACKING) {
+        stateCounter_++;
+        if (stateCounter_ >= 2) { // simulamos que después de 2 frames vuelve a IDLE
+            currentState_ = State::IDLE;
+			std::cout << "Personaje vuelve a estado IDLE." << std::endl;
+        }
+    }
+}
 void Personaje::Saltar()
 {
-	std::cout << "saltando" << std::endl;
+	if (currentState_ == State::IDLE) {
+		currentState_ = State::JUMPING;
+		stateCounter_ = 0;
+		std::cout << "Personaje salta." << std::endl;
+	}
 }
 
 void Personaje::Disparar()
 {
-	std::cout << "Disparando" << std::endl;
+	if (currentState_ == State::IDLE) {
+		currentState_ = State::ATTACKING;
+		stateCounter_ = 0;
+		std::cout << "Personaje ataca." << std::endl;
+	}
 }
 
 float Personaje::GetJumpHeight()

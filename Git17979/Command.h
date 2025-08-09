@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#include <map>
 #include "Personaje.h"
 class Command
 {
@@ -25,7 +24,6 @@ private:
     Personaje* personaje_;
 };
 
-// NUEVA CLASE
 class AgacharseCommand : public Command {
 public:
     AgacharseCommand(Personaje* personaje) : personaje_(personaje) {}
@@ -33,4 +31,3 @@ public:
 private:
     Personaje* personaje_;
 };
-

@@ -3,12 +3,16 @@
 class Personaje
 {
 public:
+	enum class State { IDLE, JUMPING, ATTACKING };
+
 	Personaje(float health, float maxHealth, float speed, int damage, float jumpHeight);
 	Personaje();
 	~Personaje();
 	void Saltar();
 	void Disparar();
 	void Agacharse();
+	void handleInput(char input);
+	void update();
 
 	float GetJumpHeight();
 	void SetJumpHeight(float jumpHeight);
@@ -22,6 +26,8 @@ public:
 	void SetDamage(int damage);
 	
 private:
+	State currentState_;
+	int stateCounter_;
 	float _health;
 	float _speed;
 	int _damage;

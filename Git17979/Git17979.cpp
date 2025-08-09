@@ -66,6 +66,19 @@ int main()
             }
         }
     }
+        Personaje personaje;
+        InputHandler inputHandler(&personaje);
+
+        char tecla;
+        while (true) {
+            std::cout << "\nIngresa tecla (w: saltar, f: disparar, s: agacharse, q: salir): ";
+            std::cin >> tecla;
+
+            Command* cmd = inputHandler.handleInput(tecla);
+            if (cmd) cmd->execute();
+
+            personaje.update();
+        }
     return 0;
 }
 

@@ -1,6 +1,6 @@
 #pragma once
 #include <memory>
-#include <map>
+#include <array>
 #include <string>
 #include "Personaje.h"
 class InputHandler
@@ -17,6 +17,6 @@ private:
     std::unique_ptr<DispararCommand> dispararCommand_;
     std::unique_ptr<AgacharseCommand> agacharseCommand_;
 
-    std::map<char, Command*> botonMap_;
+    std::array<Command*, 256> botonArray_;
 };
 
