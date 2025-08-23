@@ -5,9 +5,36 @@
 #include "Personaje.h"
 #include "InputHandler.h"
 #include "Command.h"
+#include "Observer.h"
+class SistemaDeAudio : public Observer {
+public:
+    void onNotify(const Personaje& personaje, Evento evento) override {
+        if (evento == Evento::PERSONAJE_RECIBE_DANO) {
+            std::cout << "[AUDIO] Notificación: sonido de dolor\n";
+        }
+    }
+};
 
+class SistemaDeLogros : public Observer {
+public:
+    void onNotify(const Personaje& personaje, Evento evento) override {
+        if (evento == Evento::PERSONAJE_RECIBE_DANO) {
+            std::cout << "[LOGROS] Notificación: logro desbloqueado\n";
+        }
+    }
+};
+    
 int main()
 {
+    Personaje personaje;
+    SistemaDeAudio audio;
+    SistemaDeLogros logros;
+    
+    personaje.agregarObserver(&logros);
+    personaje.agregarObserver(&audio);
+    personaje.recibirDano(10);
+
+
    // char tecla;
    // Personaje* player = new Personaje(20,20,10,10,10);
    //
@@ -46,6 +73,7 @@ int main()
         if (input == 'q') {
             running = false;
         }
+        
         else if (input == 'r') {
             char tecla;
             std::string accion;
@@ -81,4 +109,6 @@ int main()
         }
     return 0;
 }
+
+
 

@@ -1,5 +1,8 @@
 #include "Personaje.h"
 
+
+//con ayuda de chat gpt
+
 Personaje::Personaje(float health, float maxHealth, float speed, int damage, float jumpHeight)
 {
 	std::cout << "llamando constructor con variables" << std::endl;
@@ -8,6 +11,8 @@ Personaje::Personaje(float health, float maxHealth, float speed, int damage, flo
 	_speed = speed;
 	_damage = damage;
 	_jumpheight = jumpHeight;
+	vida_ = 100;
+	numObservers_ = 0;
 }
 
 Personaje::Personaje() 
@@ -19,6 +24,9 @@ Personaje::Personaje()
 	_speed = 10;
 	_damage = 10;
 	_jumpheight = 10;
+	vida_ = 100;
+	numObservers_ = 0;
+
 }
 
 Personaje::~Personaje()
@@ -57,6 +65,17 @@ void Personaje::update()
         }
     }
 }
+
+
+void Personaje::SetDamage(int damage) {
+	vida_ -= damage;
+	if (vida_ < 0) vida_ = 0;
+
+	std::cout << "Player Recibió " << damage
+		<< " de daño. Vida restante: " << vida_ << "\n";
+
+}
+
 void Personaje::Saltar()
 {
 	if (currentState_ == State::IDLE) {
@@ -119,7 +138,7 @@ void Personaje::SetSpeed(float speed)
 	_speed = speed;
 }
 
-int Personaje::GetDamage()
+int Personaje::getdamage(int damage)
 {
 	return _damage;
 }
