@@ -123,12 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\POO_Gameinaki\src\Observer.cpp" />
     <ClCompile Include="Command.cpp" />
     <ClCompile Include="Git17979.cpp" />
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="Personaje.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\POO_Gameinaki\include\Observer.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="Personaje.h" />
