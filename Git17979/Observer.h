@@ -1,8 +1,13 @@
 #include <iostream>
 #include <vector>
 
-enum class Evento { PERSONAJE_RECIBE_DANO };
+
 class Personaje;
+enum class Evento { 
+
+    PERSONAJE_RECIBE_DANO, PERSONAJE_SALTAR, PERSONAJE_DISPARA
+
+};
 
 class Observer {
 public:

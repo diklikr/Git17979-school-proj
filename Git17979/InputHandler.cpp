@@ -17,7 +17,7 @@ InputHandler::~InputHandler() {}
 
 Command* InputHandler::handleInput(char tecla)
 {
-    return botonArray_[static_cast<unsigned char>(tecla)];
+    return botonArray_[static_cast<char>(tecla)];
 }
 
 void InputHandler::remapearTecla(char tecla, std::string accion)

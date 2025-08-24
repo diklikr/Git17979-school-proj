@@ -1,574 +1,73 @@
 ﻿  Observer.cpp
-  Command.cpp
 \POO_Gameinaki\src\Observer.cpp(1,1): error C1083: Cannot open source file: '..\..\POO_Gameinaki\src\Observer.cpp': No such file or directory
   (compiling source file '/POO_Gameinaki/src/Observer.cpp')
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.h(4,7): error C2011: 'Personaje': 'class' type redefinition
-  (compiling source file 'Command.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Command.h(14,31): error C2027: use of undefined type 'Personaje'
-  (compiling source file 'Command.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Command.h(22,31): error C2027: use of undefined type 'Personaje'
-  (compiling source file 'Command.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Command.h(30,31): error C2027: use of undefined type 'Personaje'
-  (compiling source file 'Command.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-  Git17979.cpp
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.h(4,7): error C2011: 'Personaje': 'class' type redefinition
-  (compiling source file 'Git17979.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(12,12): error C2143: syntax error: missing ';' before '*'
-  (compiling source file 'Git17979.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(12,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'Git17979.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(12,37): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'Git17979.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(16,21): error C2065: 'SaltarCommand': undeclared identifier
-  (compiling source file 'Git17979.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(16,10): error C2923: 'std::unique_ptr': 'SaltarCommand' is not a valid template type argument for parameter '_Ty'
-  (compiling source file 'Git17979.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(16,21):
-      see declaration of 'SaltarCommand'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(16,10): error C2976: 'std::unique_ptr': too few template arguments
-  (compiling source file 'Git17979.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
-      see declaration of 'std::unique_ptr'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(17,21): error C2065: 'DispararCommand': undeclared identifier
-  (compiling source file 'Git17979.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(17,10): error C2923: 'std::unique_ptr': 'DispararCommand' is not a valid template type argument for parameter '_Ty'
-  (compiling source file 'Git17979.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(17,21):
-      see declaration of 'DispararCommand'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(17,10): error C2976: 'std::unique_ptr': too few template arguments
-  (compiling source file 'Git17979.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
-      see declaration of 'std::unique_ptr'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(18,21): error C2065: 'AgacharseCommand': undeclared identifier
-  (compiling source file 'Git17979.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(18,10): error C2923: 'std::unique_ptr': 'AgacharseCommand' is not a valid template type argument for parameter '_Ty'
-  (compiling source file 'Git17979.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(18,21):
-      see declaration of 'AgacharseCommand'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(18,10): error C2976: 'std::unique_ptr': too few template arguments
-  (compiling source file 'Git17979.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
-      see declaration of 'std::unique_ptr'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(20,16): error C2065: 'Command': undeclared identifier
-  (compiling source file 'Git17979.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(20,24): error C2059: syntax error: ','
-  (compiling source file 'Git17979.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Command.h(14,31): error C2027: use of undefined type 'Personaje'
-  (compiling source file 'Git17979.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Command.h(22,31): error C2027: use of undefined type 'Personaje'
-  (compiling source file 'Git17979.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Command.h(30,31): error C2027: use of undefined type 'Personaje'
-  (compiling source file 'Git17979.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(4,12): error C2011: 'Evento': 'enum' type redefinition
-  (compiling source file 'Git17979.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(4,12):
+  Audio.cpp
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(5,12): error C2011: 'Evento': 'enum' type redefinition
+  (compiling source file 'Audio.cpp')
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(5,12):
       see declaration of 'Evento'
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(7,7): error C2011: 'Observer': 'class' type redefinition
-  (compiling source file 'Git17979.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(7,7):
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(8,7): error C2011: 'Observer': 'class' type redefinition
+  (compiling source file 'Audio.cpp')
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(8,7):
       see declaration of 'Observer'
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(14,35): error C2504: 'Observer': base class undefined
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(16,14): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Audio.cpp(6,24): error C2027: use of undefined type 'Evento'
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(5,12):
+      see declaration of 'Evento'
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(16,23): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Audio.cpp(6,24): error C2065: 'PERSONAJE_RECIBE_DANO': undeclared identifier
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Audio.cpp(9,24): error C2027: use of undefined type 'Evento'
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(5,12):
+      see declaration of 'Evento'
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(17,17): error C2059: syntax error: ')'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(17,19): error C2143: syntax error: missing ';' before '{'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(23,31): error C2504: 'Observer': base class undefined
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(25,14): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Audio.cpp(9,24): error C2065: 'PERSONAJE_SALTAR': undeclared identifier
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Audio.cpp(12,24): error C2027: use of undefined type 'Evento'
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(5,12):
+      see declaration of 'Evento'
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(25,23): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Audio.cpp(12,24): error C2065: 'PERSONAJE_DISPARA': undeclared identifier
+  Git17979.cpp
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(5,12): error C2011: 'Evento': 'enum' type redefinition
+  (compiling source file 'Git17979.cpp')
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(5,12):
+      see declaration of 'Evento'
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(26,17): error C2059: syntax error: ')'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(26,19): error C2143: syntax error: missing ';' before '{'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(32,36): error C2504: 'Observer': base class undefined
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(34,14): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(8,7): error C2011: 'Observer': 'class' type redefinition
+  (compiling source file 'Git17979.cpp')
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(8,7):
+      see declaration of 'Observer'
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(34,23): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Audio.h(5,22): error C2504: 'Observer': base class undefined
+  (compiling source file 'Git17979.cpp')
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(35,17): error C2059: syntax error: ')'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(35,19): error C2143: syntax error: missing ';' before '{'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(44,15): error C2079: 'player' uses undefined class 'Personaje'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(75,15): error C2079: 'personaje' uses undefined class 'Personaje'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(76,30): error C2665: 'InputHandler::InputHandler': no overloaded function could convert all the argument types
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(21,1):
-      could be 'InputHandler::InputHandler(const InputHandler &)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(76,30):
-          'InputHandler::InputHandler(const InputHandler &)': cannot convert argument 1 from '<error type> *' to 'const InputHandler &'
-              C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(76,31):
-              Reason: cannot convert from '<error type> *' to 'const InputHandler'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(9,5):
-      or       'InputHandler::InputHandler(Personaje *)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(76,30):
-          'InputHandler::InputHandler(Personaje *)': cannot convert argument 1 from '<error type> *' to 'Personaje *'
-              C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(76,31):
-              Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(76,30):
-      while trying to match the argument list '(<error type> *)'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Audio.h(8,7): error C3668: 'Audio::onNotify': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Git17979.cpp')
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(99,45): error C2039: 'handleInput': is not a member of 'InputHandler'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(6,7):
-      see declaration of 'InputHandler'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Logros.h(4,23): error C2504: 'Observer': base class undefined
+  (compiling source file 'Git17979.cpp')
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(108,19): error C2079: 'personaje' uses undefined class 'Personaje'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(108,19): error C2086: '<error type> personaje': redefinition
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(75,15):
-      see declaration of 'personaje'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Logros.h(7,7): error C3668: 'Logros::onNotify': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Git17979.cpp')
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(109,22): error C2374: 'inputHandler': redefinition; multiple initialization
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(76,18):
-      see declaration of 'inputHandler'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(28,15): error C2664: 'void Personaje::agregarObserver(Observer *)': cannot convert argument 1 from 'Logros *' to 'Observer *'
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(28,31):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.h(36,7):
+      see declaration of 'Personaje::agregarObserver'
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(28,15):
+      while trying to match the argument list '(Logros *)'
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(109,22): error C2086: 'InputHandler inputHandler': redefinition
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(76,18):
-      see declaration of 'inputHandler'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(116,41): error C2039: 'handleInput': is not a member of 'InputHandler'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(6,7):
-      see declaration of 'InputHandler'
+C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(29,15): error C2664: 'void Personaje::agregarObserver(Observer *)': cannot convert argument 1 from 'Audio *' to 'Observer *'
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(29,31):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.h(36,7):
+      see declaration of 'Personaje::agregarObserver'
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Git17979.cpp(29,15):
+      while trying to match the argument list '(Audio *)'
   
   InputHandler.cpp
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.h(4,7): error C2011: 'Personaje': 'class' type redefinition
-  (compiling source file 'InputHandler.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(12,12): error C2143: syntax error: missing ';' before '*'
-  (compiling source file 'InputHandler.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(12,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'InputHandler.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(12,37): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'InputHandler.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(16,21): error C2065: 'SaltarCommand': undeclared identifier
-  (compiling source file 'InputHandler.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(16,10): error C2923: 'std::unique_ptr': 'SaltarCommand' is not a valid template type argument for parameter '_Ty'
-  (compiling source file 'InputHandler.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(16,21):
-      see declaration of 'SaltarCommand'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(16,10): error C2976: 'std::unique_ptr': too few template arguments
-  (compiling source file 'InputHandler.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
-      see declaration of 'std::unique_ptr'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(17,21): error C2065: 'DispararCommand': undeclared identifier
-  (compiling source file 'InputHandler.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(17,10): error C2923: 'std::unique_ptr': 'DispararCommand' is not a valid template type argument for parameter '_Ty'
-  (compiling source file 'InputHandler.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(17,21):
-      see declaration of 'DispararCommand'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(17,10): error C2976: 'std::unique_ptr': too few template arguments
-  (compiling source file 'InputHandler.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
-      see declaration of 'std::unique_ptr'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(18,21): error C2065: 'AgacharseCommand': undeclared identifier
-  (compiling source file 'InputHandler.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(18,10): error C2923: 'std::unique_ptr': 'AgacharseCommand' is not a valid template type argument for parameter '_Ty'
-  (compiling source file 'InputHandler.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(18,21):
-      see declaration of 'AgacharseCommand'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(18,10): error C2976: 'std::unique_ptr': too few template arguments
-  (compiling source file 'InputHandler.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
-      see declaration of 'std::unique_ptr'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(20,16): error C2065: 'Command': undeclared identifier
-  (compiling source file 'InputHandler.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(20,24): error C2059: syntax error: ','
-  (compiling source file 'InputHandler.cpp')
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Command.h(14,31): error C2027: use of undefined type 'Personaje'
-  (compiling source file 'InputHandler.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Command.h(22,31): error C2027: use of undefined type 'Personaje'
-  (compiling source file 'InputHandler.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Command.h(30,31): error C2027: use of undefined type 'Personaje'
-  (compiling source file 'InputHandler.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(5,27): error C2672: 'std::make_unique': no matching overloaded function found
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3640,6):
-      could be 'void std::make_unique(_Types ...)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(5,27):
-          'void std::make_unique(_Types ...)': could not deduce template argument for '__formal'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3639,51):
-              'std::enable_if_t<false,int>' : Failed to specialize alias template
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3634,57):
-      or       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(5,27):
-          'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)': could not deduce template argument for '__formal'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3633,34):
-              'std::enable_if_t<false,int>' : Failed to specialize alias template
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3629,57):
-      or       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(5,27):
-          Failed to specialize function template 'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
-              C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(5,27):
-              With the following template arguments:
-                  C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(5,27):
-                  '_Ty=SaltarCommand'
-                  C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(5,27):
-                  '_Types={Personaje *&}'
-                  C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(5,27):
-                  '__formal=0'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(6,29): error C2672: 'std::make_unique': no matching overloaded function found
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3640,6):
-      could be 'void std::make_unique(_Types ...)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(6,29):
-          'void std::make_unique(_Types ...)': could not deduce template argument for '__formal'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3639,51):
-              'std::enable_if_t<false,int>' : Failed to specialize alias template
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3634,57):
-      or       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(6,29):
-          'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)': could not deduce template argument for '__formal'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3633,34):
-              'std::enable_if_t<false,int>' : Failed to specialize alias template
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3629,57):
-      or       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(6,29):
-          Failed to specialize function template 'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
-              C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(6,29):
-              With the following template arguments:
-                  C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(6,29):
-                  '_Ty=DispararCommand'
-                  C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(6,29):
-                  '_Types={Personaje *&}'
-                  C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(6,29):
-                  '__formal=0'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(7,30): error C2672: 'std::make_unique': no matching overloaded function found
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3640,6):
-      could be 'void std::make_unique(_Types ...)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(7,30):
-          'void std::make_unique(_Types ...)': could not deduce template argument for '__formal'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3639,51):
-              'std::enable_if_t<false,int>' : Failed to specialize alias template
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3634,57):
-      or       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(7,30):
-          'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)': could not deduce template argument for '__formal'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3633,34):
-              'std::enable_if_t<false,int>' : Failed to specialize alias template
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3629,57):
-      or       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(7,30):
-          Failed to specialize function template 'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types ...)'
-              C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(7,30):
-              With the following template arguments:
-                  C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(7,30):
-                  '_Ty=AgacharseCommand'
-                  C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(7,30):
-                  '_Types={Personaje *&}'
-                  C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(7,30):
-                  '__formal=0'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(11,39): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(11,24):
-      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(11,24):
-      Conversion requires a second user-defined-conversion operator or constructor
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3456,37):
-      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(11,39):
-      while trying to match the argument list '()'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(12,41): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(12,24):
-      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(12,24):
-      Conversion requires a second user-defined-conversion operator or constructor
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3456,37):
-      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(12,41):
-      while trying to match the argument list '()'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(13,42): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(13,24):
-      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(13,24):
-      Conversion requires a second user-defined-conversion operator or constructor
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3456,37):
-      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(13,42):
-      while trying to match the argument list '()'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(18,24): error C2039: 'handleInput': is not a member of 'InputHandler'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.h(6,7):
-      see declaration of 'InputHandler'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(20,12): error C2065: 'botonArray_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(25,65): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(25,50):
-      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(25,50):
-      Conversion requires a second user-defined-conversion operator or constructor
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3456,37):
-      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(25,65):
-      while trying to match the argument list '()'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(26,74): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(26,57):
-      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(26,57):
-      Conversion requires a second user-defined-conversion operator or constructor
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3456,37):
-      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(26,74):
-      while trying to match the argument list '()'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(27,76): error C2662: '_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::get(void) noexcept const': cannot convert 'this' pointer from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx> &'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(27,58):
-      Reason: cannot convert from 'std::unique_ptr' to 'const std::unique_ptr<_Ty,_Dx>'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(27,58):
-      Conversion requires a second user-defined-conversion operator or constructor
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3456,37):
-      see declaration of 'std::unique_ptr<_Ty,_Dx>::get'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\InputHandler.cpp(27,76):
-      while trying to match the argument list '()'
-  
+  Logros.cpp
   Personaje.cpp
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.h(4,7): error C2011: 'Personaje': 'class' type redefinition
-  (compiling source file 'Personaje.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(6,12): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(6,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(9,2): error C2065: '_health': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(10,2): error C2065: '_maxHealth': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(11,2): error C2065: '_speed': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(12,2): error C2065: '_damage': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(13,2): error C2065: '_jumpheight': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(14,2): error C2065: 'vida_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(15,2): error C2065: 'numObservers_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(16,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(18,12): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(18,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(19,18): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(19,25): error C2065: 'IDLE': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(20,1): error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(22,2): error C2065: '_health': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(23,2): error C2065: '_maxHealth': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(24,2): error C2065: '_speed': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(25,2): error C2065: '_damage': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(26,2): error C2065: '_jumpheight': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(27,2): error C2065: 'vida_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(28,2): error C2065: 'numObservers_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(30,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(32,13): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(32,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(35,1): warning C4508: '{dtor}': function should return a value; 'void' return type assumed
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(36,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(38,13): error C2065: 'currentState_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(38,13): error C2050: switch expression not integral
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(40,10): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(40,17): error C2065: 'IDLE': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(40,17): error C2131: expression did not evaluate to a constant
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(40,17):
-      a non-constant (sub-)expression was encountered
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(42,4): error C3861: 'Saltar': identifier not found
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(45,4): error C3861: 'Disparar': identifier not found
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(48,10): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(48,17): error C2065: 'JUMPING': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(48,17): error C2131: expression did not evaluate to a constant
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(48,17):
-      a non-constant (sub-)expression was encountered
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(52,10): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(52,17): error C2065: 'ATTACKING': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(52,17): error C2131: expression did not evaluate to a constant
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(52,17):
-      a non-constant (sub-)expression was encountered
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(40,17): error C2051: case expression not constant
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(48,17): error C2051: case expression not constant
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(52,17): error C2051: case expression not constant
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(55,5): warning C4060: switch statement contains no 'case' or 'default' labels
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(58,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(60,9): error C2065: 'currentState_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(60,26): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(60,33): error C2065: 'JUMPING': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(60,44): error C2065: 'currentState_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(60,61): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(60,68): error C2065: 'ATTACKING': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(61,9): error C2065: 'stateCounter_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(62,13): error C2065: 'stateCounter_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(63,13): error C2065: 'currentState_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(63,29): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(63,36): error C2065: 'IDLE': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(70,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(71,2): error C2065: 'vida_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(72,6): error C2065: 'vida_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(72,17): error C2065: 'vida_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(75,38): error C2065: 'vida_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(79,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(81,6): error C2065: 'currentState_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(81,23): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(81,30): error C2065: 'IDLE': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(82,3): error C2065: 'currentState_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(82,19): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(82,26): error C2065: 'JUMPING': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(83,3): error C2065: 'stateCounter_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(88,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(90,6): error C2065: 'currentState_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(90,23): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(90,30): error C2065: 'IDLE': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(91,3): error C2065: 'currentState_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(91,19): error C2653: 'State': is not a class or namespace name
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(91,26): error C2065: 'ATTACKING': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(92,3): error C2065: 'stateCounter_': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(97,18): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(99,9): error C2065: '_jumpheight': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(102,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(106,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(108,2): error C2065: '_jumpheight': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(111,18): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(113,9): error C2065: '_health': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(116,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(118,2): error C2065: '_health': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(121,18): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(123,9): error C2065: '_maxhealth': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(126,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(128,2): error C2065: '_maxhealth': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(131,18): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(133,9): error C2065: '_speed': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(136,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(138,2): error C2065: '_speed': undeclared identifier
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(141,16): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(146,17): error C2027: use of undefined type 'Personaje'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Observer.h(12,7):
-      see declaration of 'Personaje'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(146,17): error C2084: function 'void SetDamage(int)' already has a body
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(70,17):
-      see previous definition of 'SetDamage'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\Git17979-school-proj\Git17979\Personaje.cpp(148,2): error C2065: '_damage': undeclared identifier
   Generating Code...

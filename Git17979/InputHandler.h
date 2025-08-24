@@ -3,6 +3,8 @@
 #include <array>
 #include <string>
 #include "Personaje.h"
+#include "Command.h" // Ensure Command is included
+
 class InputHandler
 {
 public:
@@ -19,4 +21,3 @@ private:
 
     std::array<Command*, 256> botonArray_;
 };
-

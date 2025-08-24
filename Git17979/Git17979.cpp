@@ -1,68 +1,34 @@
-// Git17979.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
-
 #include <iostream>
 #include "Personaje.h"
 #include "InputHandler.h"
 #include "Command.h"
 #include "Observer.h"
-class SistemaDeAudio : public Observer {
-public:
-    void onNotify(const Personaje& personaje, Evento evento) override {
-        if (evento == Evento::PERSONAJE_RECIBE_DANO) {
-            std::cout << "[AUDIO] Notificación: sonido de dolor\n";
-        }
-    }
-};
+#include "Audio.h"
+#include "Logros.h"
 
-class SistemaDeLogros : public Observer {
-public:
-    void onNotify(const Personaje& personaje, Evento evento) override {
-        if (evento == Evento::PERSONAJE_RECIBE_DANO) {
-            std::cout << "[LOGROS] Notificación: logro desbloqueado\n";
-        }
-    }
-};
+
+
     
 int main()
 {
-    Personaje personaje;
-    SistemaDeAudio audio;
-    SistemaDeLogros logros;
+	Audio audioSystem;
+    // Dentro del bucle while en main
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::SALTAR });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE }); // Duplicado
+    audioSystem.solicitarSonido({ SoundID::DAMAGE }); // Duplicado
+
+    audioSystem.procesarEventos();
+    Logros logros;
+    Audio  audio;
     
-    personaje.agregarObserver(&logros);
-    personaje.agregarObserver(&audio);
-    personaje.recibirDano(10);
-
-
-   // char tecla;
-   // Personaje* player = new Personaje(20,20,10,10,10);
-   //
-   // player->SetJumpHeight(0);
-
-   // std::cout << "Hello World!\n";
-   // std::cout << "aprieta una tecla para jugar\n";
-   ////update
-   // while (true)
-   // {
-   // 
-   //     std::cin >> tecla;
-   // if (tecla == 'w')
-   // {
-   //     player->Saltar();
-   // }
-   // else if (tecla == 'f')
-   // {
-   //     player->Disparar();
-   // }
-   // else
-   // {
-   //     std::cout << "Esa tecla no es valida\n";
-   // }
-
-   // }
     Personaje personaje;
     InputHandler inputHandler(&personaje);
+
+    personaje.agregarObserver(&logros);
+    personaje.agregarObserver(&audio);
+    personaje.getdamage(10);
+
 
     char input;
     bool running = true;
@@ -94,8 +60,6 @@ int main()
             }
         }
     }
-        Personaje personaje;
-        InputHandler inputHandler(&personaje);
 
         char tecla;
         while (true) {

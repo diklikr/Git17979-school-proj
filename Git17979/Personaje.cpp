@@ -3,6 +3,19 @@
 
 //con ayuda de chat gpt
 
+void Personaje::notify(Evento evento) {
+	for (int i = 0; i < numObservers_; ++i) {
+		observadores_[i]->onNotify(*this, evento);
+	}
+}
+void Personaje::agregarObserver(Observer* observer) {
+	if (!observer) return;
+	if (numObservers_ >= MAX_OBSERVERS) {
+		std::cout << "[Subject] No se pueden agregar mas observadores (MAX_OBSERVERS alcanzado).\n";
+		return;
+	}
+	observadores_[numObservers_++] = observer;
+}
 Personaje::Personaje(float health, float maxHealth, float speed, int damage, float jumpHeight)
 {
 	std::cout << "llamando constructor con variables" << std::endl;
@@ -11,7 +24,6 @@ Personaje::Personaje(float health, float maxHealth, float speed, int damage, flo
 	_speed = speed;
 	_damage = damage;
 	_jumpheight = jumpHeight;
-	vida_ = 100;
 	numObservers_ = 0;
 }
 
@@ -24,7 +36,6 @@ Personaje::Personaje()
 	_speed = 10;
 	_damage = 10;
 	_jumpheight = 10;
-	vida_ = 100;
 	numObservers_ = 0;
 
 }
@@ -64,16 +75,6 @@ void Personaje::update()
 			std::cout << "Personaje vuelve a estado IDLE." << std::endl;
         }
     }
-}
-
-
-void Personaje::SetDamage(int damage) {
-	vida_ -= damage;
-	if (vida_ < 0) vida_ = 0;
-
-	std::cout << "Player Recibió " << damage
-		<< " de daño. Vida restante: " << vida_ << "\n";
-
 }
 
 void Personaje::Saltar()
@@ -116,6 +117,12 @@ float Personaje::GetHealth()
 void Personaje::SetHealth(float health)
 {
 	_health = health;
+	_health -= _damage;
+	if (_health <= 0)
+	{
+		_health = 0;
+		std::cout << "Personaje ha muerto." << std::endl;
+	}
 }
 
 float Personaje::GetMaxHealth()
@@ -138,9 +145,10 @@ void Personaje::SetSpeed(float speed)
 	_speed = speed;
 }
 
-int Personaje::getdamage(int damage)
+
+void Personaje::getdamage(int damage)
 {
-	return _damage;
+	return SetHealth(_health - damage);
 }
 
 void Personaje::SetDamage(int damage)

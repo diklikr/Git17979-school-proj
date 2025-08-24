@@ -124,16 +124,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\POO_Gameinaki\src\Observer.cpp" />
+    <ClCompile Include="Audio.cpp" />
     <ClCompile Include="Command.cpp" />
     <ClCompile Include="Git17979.cpp" />
     <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="Logros.cpp" />
     <ClCompile Include="Personaje.cpp" />
+    <ClCompile Include="Soundevent.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\POO_Gameinaki\include\Observer.h" />
+    <ClInclude Include="Audio.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="Logros.h" />
     <ClInclude Include="Personaje.h" />
+    <ClInclude Include="Soundevent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

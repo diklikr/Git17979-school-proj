@@ -17,31 +17,10 @@ public:
 	
 	static const int MAX_OBSERVERS = 10;
 	Observer* observadores_[MAX_OBSERVERS];
-	int numObservadores_;
+	int numObservers_;
 
 
-	void getdamage(int damg) {
-		vida_ -= damg;
-		if (vida_ <= 0) vida_ = 0;
-
-		std::cout << "Player Recibió " << damg << " de daño. Vida restante: " << vida_ << "\n";
-	}
-
-	int getVida() const { return vida_; }
-	
-	void agregarObserver(Observer* observer) {
-		if (numObservadores_ < MAX_OBSERVERS) {
-			observadores_[numObservadores_++] = observer;
-		}
-	}
-
-	void recibirDano(int dano) {
-		vida_ -= dano;
-		std::cout << "Personaje recibe " << dano << " de dano. Vida actual: " << vida_ << std::endl;
-		notificar(Evento::PERSONAJE_RECIBE_DANO);
-	}
-
-	int getVida() const { return vida_; }
+	void getdamage(int damage);
 
 	float GetJumpHeight();
 	void SetJumpHeight(float jumpHeight);
@@ -53,6 +32,8 @@ public:
 	void SetSpeed(float speed);
 
 	void SetDamage(int damage);
+	void notify(Evento evento);
+	void agregarObserver(Observer* observer);
 	
 private:
 	State currentState_;
@@ -63,20 +44,6 @@ private:
 	float _maxhealth;
 	float _jumpheight;
 	float _maxHealth;
-	bool notify = false;
-	int vida_;
-	static const int MAX_OBSERVERS = 3;
-	Observer* observers_[MAX_OBSERVERS];
-	int numObservers_;
 
-	Observer* observadores_[MAX_OBSERVERS];
-	int numObservadores_;
-	int vida_;
-
-	void notify(Evento evento) {
-		for (int i = 0; i < numObservadores_; ++i) {
-			observadores_[i]->onNotify(*this, evento);
-		}
-	}
 };
 
