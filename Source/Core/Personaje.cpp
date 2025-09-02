@@ -140,18 +140,18 @@ float Personaje::GetSpeed()
 	return _speed;
 }
 
-void Personaje::SetSpeed(float speed)
+float Personaje::SetSpeed(float speed)
 {
 	_speed = speed;
 }
 
 
-void Personaje::getdamage(int damage)
+int Personaje::getdamage(int damage)
 {
 	return SetHealth(_health - damage);
 }
 
-void Personaje::SetDamage(int damage)
+int Personaje::SetDamage(int damage)
 {
 	_damage = damage;
 }
