@@ -1,7 +1,9 @@
 #include "Audio.h"
-#include "Personaje.h"
+#include "../Core/Personaje.h"
 #include <iostream>
+
 Soundevent Soundevents;
+
 void Audio::onNotify(const Personaje& personaje, Evento evento) {
 	if (evento == Evento::PERSONAJE_RECIBE_DANO) {
 		std::cout << "[AUDIO] Notificación: sonido de dolor\n";

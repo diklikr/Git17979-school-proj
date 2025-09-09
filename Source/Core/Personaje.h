@@ -5,7 +5,7 @@
 
 #pragma once
 #include <iostream>
-#include "Observer.h"
+#include "../Patterns/Observer.h"
 
  /**
   * @class Personaje

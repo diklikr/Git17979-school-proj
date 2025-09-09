@@ -6,7 +6,7 @@
 #include <memory>
 #include <array>
 #include <string>
-#include "Personaje.h"
+#include "../Core/Personaje.h"
 #include "Command.h" 
 
  /* @class InputHandler

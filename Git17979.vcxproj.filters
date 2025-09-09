@@ -15,51 +15,51 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Git17979.cpp">
+    <ClCompile Include="Source\Git17979.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Personaje.cpp">
+    <ClCompile Include="Source\Core\Personaje.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Command.cpp">
+    <ClCompile Include="Source\Patterns\Command.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="InputHandler.cpp">
+    <ClCompile Include="Source\Patterns\InputHandler.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\POO_Gameinaki\src\Observer.cpp">
+    <ClCompile Include="Source\Patterns\Observer.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Audio.cpp">
+    <ClCompile Include="Source\Patterns\Soundevent.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Logros.cpp">
+    <ClCompile Include="Source\Systems\Audio.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Soundevent.cpp">
+    <ClCompile Include="Source\Systems\Logros.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Personaje.h">
+    <ClInclude Include="Source\Core\Personaje.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Command.h">
+    <ClInclude Include="Source\Patterns\Command.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="InputHandler.h">
+    <ClInclude Include="Source\Patterns\InputHandler.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\POO_Gameinaki\include\Observer.h">
+    <ClInclude Include="Source\Patterns\Observer.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Audio.h">
+    <ClInclude Include="Source\Patterns\Soundevent.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Logros.h">
+    <ClInclude Include="Source\Systems\Audio.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Soundevent.h">
+    <ClInclude Include="Source\Systems\Logros.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

@@ -3,7 +3,7 @@
  * Esta clase y sus derivados implementan el patrón Command, permitiendo encapsular acciones del Personaje en objetos ejecutables de manera desacoplada.*/
 #pragma once
 #include <iostream>
-#include "Personaje.h"
+#include "../Core/Personaje.h"
 
  /* @class Command
   * @brief Interfaz base para todos los comandos que se pueden ejecutar sobre un Personaje.*/

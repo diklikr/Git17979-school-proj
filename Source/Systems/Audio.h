@@ -2,8 +2,8 @@
  * @brief Declaración de la clase Audio, que implementa el patrón Observer para reproducir sonidos.
  * Esta clase observa eventos de un Personaje y genera sonidos correspondientes. Además, mantiene una cola de eventos de sonido pendientes para ser procesados.*/
 #pragma once
-#include "Observer.h"
-#include "SoundEvent.h"
+#include "../Patterns/Observer.h"
+#include "../Patterns/SoundEvent.h"
 
  /* @class Audio
   * @brief Sistema de audio que escucha eventos del personaje y reproduce sonidos.

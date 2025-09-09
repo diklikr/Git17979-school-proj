@@ -1,18 +1,38 @@
 #include <iostream>
-#include "Personaje.h"
-#include "InputHandler.h"
-#include "Command.h"
-#include "Observer.h"
-#include "Audio.h"
-#include "Logros.h"
-
-
-
-    
+#include "Core/Personaje.h"
+#include "Patterns/InputHandler.h"
+#include "Patterns/Command.h"
+#include "Patterns/Observer.h"
+#include "Systems/Audio.h"
+#include "Systems/Logros.h"
+   
 int main()
 {
+
+   /* std::cout << "Ingresa tecla (w: saltar, f: disparar, s: agacharse, q: salir):" << std::endl;*/
+
 	Audio audioSystem;
     // Dentro del bucle while en main
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
+    audioSystem.solicitarSonido({ SoundID::DAMAGE });
     audioSystem.solicitarSonido({ SoundID::DAMAGE });
     audioSystem.solicitarSonido({ SoundID::SALTAR });
     audioSystem.solicitarSonido({ SoundID::DAMAGE }); // Duplicado
@@ -43,9 +63,9 @@ int main()
         else if (input == 'r') {
             char tecla;
             std::string accion;
-            std::cout << "¿Qué tecla quieres remapear? ";
+            std::cout << "¿Que tecla quieres remapear? ";
             std::cin >> tecla;
-            std::cout << "¿A qué acción? (saltar, disparar, agacharse): ";
+            std::cout << "¿A que accion? (saltar, disparar, agacharse): ";
             std::cin >> accion;
             inputHandler.remapearTecla(tecla, accion);
             std::cout << "Tecla remapeada.\n";
@@ -56,13 +76,13 @@ int main()
                 command->execute();
             }
             else {
-                std::cout << "Tecla sin acción asignada.\n";
+                std::cout << "Tecla sin accion asignada.\n";
             }
         }
     }
 
         char tecla;
-        while (true) {
+        while (running) {
             std::cout << "\nIngresa tecla (w: saltar, f: disparar, s: agacharse, q: salir): ";
             std::cin >> tecla;
 
@@ -73,6 +93,3 @@ int main()
         }
     return 0;
 }
-
-
-

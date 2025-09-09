@@ -123,23 +123,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\POO_Gameinaki\src\Observer.cpp" />
-    <ClCompile Include="Audio.cpp" />
-    <ClCompile Include="Command.cpp" />
-    <ClCompile Include="Git17979.cpp" />
-    <ClCompile Include="InputHandler.cpp" />
-    <ClCompile Include="Logros.cpp" />
-    <ClCompile Include="Personaje.cpp" />
-    <ClCompile Include="Soundevent.cpp" />
+    <ClCompile Include="Source\Core\Personaje.cpp" />
+    <ClCompile Include="Source\Git17979.cpp" />
+    <ClCompile Include="Source\Patterns\Command.cpp" />
+    <ClCompile Include="Source\Patterns\InputHandler.cpp" />
+    <ClCompile Include="Source\Patterns\Observer.cpp" />
+    <ClCompile Include="Source\Patterns\Soundevent.cpp" />
+    <ClCompile Include="Source\Systems\Audio.cpp" />
+    <ClCompile Include="Source\Systems\Logros.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\POO_Gameinaki\include\Observer.h" />
-    <ClInclude Include="Audio.h" />
-    <ClInclude Include="Command.h" />
-    <ClInclude Include="InputHandler.h" />
-    <ClInclude Include="Logros.h" />
-    <ClInclude Include="Personaje.h" />
-    <ClInclude Include="Soundevent.h" />
+    <ClInclude Include="Source\Core\Personaje.h" />
+    <ClInclude Include="Source\Patterns\Command.h" />
+    <ClInclude Include="Source\Patterns\InputHandler.h" />
+    <ClInclude Include="Source\Patterns\Observer.h" />
+    <ClInclude Include="Source\Patterns\Soundevent.h" />
+    <ClInclude Include="Source\Systems\Audio.h" />
+    <ClInclude Include="Source\Systems\Logros.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

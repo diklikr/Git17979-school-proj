@@ -55,6 +55,10 @@ void Personaje::handleInput(char input)
 		else if (input == 'f') {
 			Disparar();
 		}
+		else if (input == 'a')
+		{
+			Agacharse();
+		}
 
     case State::JUMPING:
 		std::cout << "Personaje está en el aire y no puede realizar acciones." << std::endl;
@@ -127,12 +131,12 @@ void Personaje::SetHealth(float health)
 
 float Personaje::GetMaxHealth()
 {
-	return _maxhealth;
+	return _maxHealth;
 }
 
 void Personaje::SetMaxHealth(float maxhealth)
 {
-	_maxhealth = maxhealth;
+	_maxHealth = maxhealth;
 }
 
 float Personaje::GetSpeed()
@@ -140,18 +144,18 @@ float Personaje::GetSpeed()
 	return _speed;
 }
 
-float Personaje::SetSpeed(float speed)
+void Personaje::SetSpeed(float speed)
 {
 	_speed = speed;
 }
 
 
-int Personaje::getdamage(int damage)
+void Personaje::getdamage(int damage)
 {
 	return SetHealth(_health - damage);
 }
 
-int Personaje::SetDamage(int damage)
+void Personaje::SetDamage(int damage)
 {
 	_damage = damage;
 }

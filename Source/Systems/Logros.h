@@ -3,7 +3,7 @@
  *        para reaccionar a eventos del Personaje y desbloquear logros.*/
 
 #pragma once
-#include "Observer.h"
+#include "../Patterns/Observer.h"
 
  /*@class Logros
   * @brief Sistema de logros que observa eventos generados por un Personaje.
